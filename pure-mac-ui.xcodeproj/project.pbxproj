@@ -10,7 +10,7 @@
 		961566F52AFFA4630087C00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961566F42AFFA4630087C00A /* AppDelegate.swift */; };
 		961566F72AFFA4630087C00A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961566F62AFFA4630087C00A /* ViewController.swift */; };
 		961566F92AFFA4630087C00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961566F82AFFA4630087C00A /* Assets.xcassets */; };
-		961566FC2AFFA4630087C00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961566FA2AFFA4630087C00A /* Main.storyboard */; };
+		961567062AFFA7360087C00A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961567052AFFA7360087C00A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +18,8 @@
 		961566F42AFFA4630087C00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		961566F62AFFA4630087C00A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		961566F82AFFA4630087C00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		961566FB2AFFA4630087C00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		961566FD2AFFA4630087C00A /* pure_mac_ui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pure_mac_ui.entitlements; sourceTree = "<group>"; };
+		961567052AFFA7360087C00A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 				961566F42AFFA4630087C00A /* AppDelegate.swift */,
 				961566F62AFFA4630087C00A /* ViewController.swift */,
 				961566F82AFFA4630087C00A /* Assets.xcassets */,
-				961566FA2AFFA4630087C00A /* Main.storyboard */,
 				961566FD2AFFA4630087C00A /* pure_mac_ui.entitlements */,
+				961567052AFFA7360087C00A /* main.swift */,
 			);
 			path = "pure-mac-ui";
 			sourceTree = "<group>";
@@ -120,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				961566F92AFFA4630087C00A /* Assets.xcassets in Resources */,
-				961566FC2AFFA4630087C00A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,21 +132,11 @@
 			files = (
 				961566F72AFFA4630087C00A /* ViewController.swift in Sources */,
 				961566F52AFFA4630087C00A /* AppDelegate.swift in Sources */,
+				961567062AFFA7360087C00A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		961566FA2AFFA4630087C00A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				961566FB2AFFA4630087C00A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		961566FE2AFFA4630087C00A /* Debug */ = {
@@ -276,8 +265,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -303,8 +293,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

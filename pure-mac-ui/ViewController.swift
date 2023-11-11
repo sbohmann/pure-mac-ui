@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  pure-mac-ui
-//
-//  Created by seb on 2023-11-11.
-//
-
 import Cocoa
 
 class ViewController: NSViewController {
